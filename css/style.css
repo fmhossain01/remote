@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+/* ============================== GLobal Command End ================== */
+/* ========================== Navbar Start Here ================================= */
+header{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+nav {
+  padding: 28px 0;
+  background: transparent;
+}
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_lm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.nav_menu ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+  align-items: center;
+}
+.nav_menu ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #cfcfd2;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.nav_btn {
+  display: flex;
+  column-gap: 12px;
+}
+.nav_btn a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #cfcfd2;
+}
+.nav_btn .big_btn {
+  padding: 10px 32px;
+  border-radius: 50px;
+  background: linear-gradient(#4af0ffd0, #196264)
+}
+/* ========================== Navbar end Here ================================= */
+#hero{
+    background: url(../images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 244px 0;
+}
